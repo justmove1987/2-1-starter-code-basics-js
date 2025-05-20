@@ -14,6 +14,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.8.1
         version: 19.8.1
+      '@reporters/junit':
+        specifier: ^1.3.3
+        version: 1.3.3
       commitizen:
         specifier: ^4.3.1
         version: 4.3.1(@types/node@22.15.19)(typescript@5.8.3)
@@ -102,6 +105,9 @@ packages:
   '@commitlint/types@19.8.1':
     resolution: {integrity: sha512-/yCrWGCoA1SVKOks25EGadP9Pnj0oAIHGpl2wH2M2Y46dPM2ueb8wyCVOD7O3WCTkaJ0IkKvzhl1JY7+uCT2Dw==}
     engines: {node: '>=v18'}
+
+  '@reporters/junit@1.3.3':
+    resolution: {integrity: sha512-9XK/5bFcPNuRHDnta2M4dnkikHR/c5+d6vOP5MRu8KH34/QhatIX9WTA2fkhFqrzOULwsMyMFg0GT9cQBvcztg==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -896,6 +902,8 @@ snapshots:
     dependencies:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.4.1
+
+  '@reporters/junit@1.3.3': {}
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
