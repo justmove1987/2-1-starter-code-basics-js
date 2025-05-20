@@ -33,16 +33,19 @@ jobs:
 
       - name: Run tests
         run: pnpm test
+        
 
       # Ensure commit messages follow the defined conventions for better readability and traceability
       - name: Install commitlint
         run: |
           pnpm install conventional-changelog-conventionalcommits
           pnpm install commitlint@latest
+        if: always()
 
       - name: Validate current commit (last commit) with commitlint
         if: github.event_name == 'push'
         run: pnpx commitlint --last --verbose
+        
 
       - name: Validate PR commits with commitlint
         if: github.event_name == 'pull_request'
@@ -50,6 +53,7 @@ jobs:
 
       - name: Convert junit to ctrf
         run: pnpx junit-to-ctrf ./ctrf/*.xml
+        if: always()
 
       - name: Publish Test Report
         uses: ctrf-io/github-test-reporter@v1
