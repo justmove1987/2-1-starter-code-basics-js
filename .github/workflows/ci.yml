@@ -9,26 +9,30 @@ on:
       - main
 
 jobs:
-  test:
+  cache-and-install:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0      
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: latest
-        cache: 'pnpm'
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
 
-    - name: Install dependencies
-      run: pnpm install
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
 
-    - name: Run tests
-      run: pnpm test
+      - name: Install dependencies
+        run: pnpm install
 
-    - name: Lint commits
-      run: pnpx commitlint --from=HEAD~10 --to=HEAD --verbose
+      - name: Run tests
+        run: pnpm test
+
+      - name: Lint commits
+        run: pnpx commitlint --from=HEAD~10 --to=HEAD --verbose
