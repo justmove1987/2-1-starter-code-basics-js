@@ -1,0 +1,13 @@
+{
+  "name": "tasca-s21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --watch ./script.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
