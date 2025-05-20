@@ -29,7 +29,24 @@ Els conceptes de JavaScript a cobrir són:
 - Promises
 
 ## Informació técnica de l'exercici
-- Aquest repositori té testing automatitzat, es a dir quan pujis el resultat al repositori es correran automàticament el tests i sabràs la teva nota d'aquest exercici. Pots pujar totes les vegades que vulguis fins que resolguis tots els casos.
+
+- Clona aquest repo
+```sh 
+    $ git clone https://github.com/IT-Academy-BCN/starter-code-basics-js.git
+ ```
+- Desconecta el teu repo delt repository de itacademy. Utilitza la segÜent ordre de git: 
+```sh
+    $ git remote rm origin
+```
+- Conecta el teu repositori amb el teu compte de github:
+```sh
+$ git remote add origin <your repo name!>
+```
+- Treballa els exercicis al fitxer `script.js`.
+- Puja els canvis al teu repositori.
+
+**Important**:
+Aquest repositori té testing automatitzat, es a dir quan pujis el resultat al repositori es correran automàticament el tests i sabràs la teva nota d'aquest exercici. Pots pujar totes les vegades que vulguis fins que resolguis tots els casos.
 
 - Al mateix temps si vols anar fent comprovacions dels teus avanços pots correr els tests al terminal mitjançant el command:
 
@@ -37,16 +54,10 @@ Els conceptes de JavaScript a cobrir són:
     npm run test
 ```
 
-Has de treure una nota de **7 sobre 10** per poder passar a la següent tasca de l'itinerari.
 
-*nota* el test també comprova que els commits segueixen les convencions actuals de la pàgina https://conventionalcommits.org
+## Requeriments
 
-
-
-# Instruccions
-
-Les instruccions estan en format [gherkin](https://cucumber.io/docs/gherkin/reference)
-Resolc els exercicis al fitxer `script.js`
+- Les instruccions estan en format [gherkin](https://cucumber.io/docs/gherkin/reference)
 
 ```gherkin
     Feature: Arrow Functions
@@ -237,3 +248,10 @@ Resolc els exercicis al fitxer `script.js`
         **When** `allPromises` is resolved via `Promise.all`
         **Then** it should return an array of results from all promises
 ```
+
+### Avaluació
+Has de treure una nota de **7 sobre 10** per poder passar a la següent tasca de l'itinerari.
+
+*nota* el test també comprova que els commits segueixen les convencions actuals de la pàgina https://conventionalcommits.org
+
+
