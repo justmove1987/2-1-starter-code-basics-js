@@ -5,7 +5,7 @@
 	"main": "script.js",
 	"type": "module",
 	"scripts": {
-		"test": "node --test --watch ./script.test.js",
+		"test": "node --test ./script.test.js",
 		"prepare": "husky",
 		"commit": "cz"
 	},
