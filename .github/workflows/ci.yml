@@ -48,6 +48,9 @@ jobs:
         if: github.event_name == 'pull_request'
         run: pnpx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
 
+      - name: Convert junit to ctrf
+        run: pnpx junit-to-ctrf ./ctrf/*.xml
+        
       - name: Publish Test Report
         uses: ctrf-io/github-test-reporter@v1
         with:

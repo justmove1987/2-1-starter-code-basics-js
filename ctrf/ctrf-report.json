@@ -1,0 +1,313 @@
+{
+  "results": {
+    "tool": {
+      "name": "junit-to-ctrf"
+    },
+    "summary": {
+      "tests": 49,
+      "passed": 49,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 0,
+      "stop": 0
+    },
+    "tests": [
+      {
+        "name": "Nivell 1 - Exercici 1 - addTwoNumbers: should return 3 for 1 + 2",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 1 - Exercici 1 - addTwoNumbers"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - addTwoNumbers: should return 4 for -1 + 5",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - addTwoNumbers"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - addTwoNumbers: should return 0 for 0 + 0",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - addTwoNumbers"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - randomNumber: should return a number between 0 and 100",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - randomNumber"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - randomNumber: should return an integer",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - randomNumber"
+      },
+      {
+        "name": "Nivell 1 - Exercici 3 - Person: should log the correct greeting",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 1 - Exercici 3 - Person"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 - printNumbers: should log each number",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 - printNumbers"
+      },
+      {
+        "name": "Nivell 3 - Exercici 4 - printDelayedMessage: should log after 3 seconds",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 3 - Exercici 4 - printDelayedMessage"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - canDrive: should return &quot;Pots conduir&quot; for age 18",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - canDrive"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - canDrive: should return &quot;No pots conduir&quot; for age 17",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - canDrive"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - guessTheBigger: should return &quot;num1 és més gran&quot; for 5 and 3",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - guessTheBigger"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - guessTheBigger: should return &quot;num2 és més gran&quot; for 2 and 4",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - guessTheBigger"
+      },
+      {
+        "name": "Nivell 2 - Exercici 3 - guessTypeNumber: should return &quot;Positiu&quot; for 5",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 3 - guessTypeNumber"
+      },
+      {
+        "name": "Nivell 2 - Exercici 3 - guessTypeNumber: should return &quot;Negatiu&quot; for -3",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 3 - guessTypeNumber"
+      },
+      {
+        "name": "Nivell 2 - Exercici 3 - guessTypeNumber: should return &quot;Zero&quot; for 0",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 3 - guessTypeNumber"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 - findTheMaxNumber: should return 10 for 5, 10, 3",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 - findTheMaxNumber"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 - findTheMaxNumber: should return 7 for 1, 7, 4",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 - findTheMaxNumber"
+      },
+      {
+        "name": "Nivell 3 - Exercici 5 - guessOddOrEvenNumber: should log &quot;Parell&quot; for even numbers and &quot;Imparell&quot; for odd numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 3 - Exercici 5 - guessOddOrEvenNumber"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - processNumber: should call the callback with the number",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - processNumber"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - calculator: should call the callback with the sum of two numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - calculator"
+      },
+      {
+        "name": "Nivell 2 - Exercici 3 - waitAndGreet: should call the callback after 2 seconds",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 3 - waitAndGreet"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 - processElements: should call the callback for each element",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 - processElements"
+      },
+      {
+        "name": "Nivell 3 - Exercici 5 - processString: should call the callback with the uppercase string",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 3 - Exercici 5 - processString"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - arrayNumbers3: should contain all elements from arrayNumbers1 and arrayNumbers2",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - arrayNumbers3"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - addRestParameters: should return the sum of all arguments",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - addRestParameters"
+      },
+      {
+        "name": "Nivell 2 - Exercici 3 - citizenPlusCity: should be a copy of citizen with an additional property",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 3 - citizenPlusCity"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 -rest: rest should contain the remaining elements",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 -rest"
+      },
+      {
+        "name": "Nivell 3 - Exercici 5 - resultSpreadArgumentsToFunction: should be the sum of the arrayNumbers elements",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 3 - Exercici 5 - resultSpreadArgumentsToFunction"
+      },
+      {
+        "name": "Nivell 3 - Exercici 6 - objecteFusionat: should contain properties from both objects",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 3 - Exercici 6 - objecteFusionat"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - squareNumbersArray: should contain the squares of the numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - squareNumbersArray"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - evenNumbersArray: should contain only even numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - evenNumbersArray"
+      },
+      {
+        "name": "Nivell 1 - Exercici 3 - firstGreaterThan10: should find the first number greater than 10",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 3 - firstGreaterThan10"
+      },
+      {
+        "name": "Nivell 1 - Exercici 4 - totalCalculated: should be the sum of all numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 4 - totalCalculated"
+      },
+      {
+        "name": "Nivell 2 - Exercici 5 - calculateDoubleGreaterThan10NumbersAddition: should return the correct sum",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 5 - calculateDoubleGreaterThan10NumbersAddition"
+      },
+      {
+        "name": "Nivell 3 - Exercici 6 - everyGreaterThan10 & someGreaterThan10: should be true for all and some",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 3 - Exercici 6 - everyGreaterThan10 & someGreaterThan10"
+      },
+      {
+        "name": "Nivell 1 - Exercici 1 - printNamesWithForEach: forEach should log each name",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 1 - printNamesWithForEach"
+      },
+      {
+        "name": "Nivell 1 - Exercici 2 - for-of: should log each name",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 2 - for-of"
+      },
+      {
+        "name": "Nivell 1 - Exercici 3 - even numbers: should contain only even numbers",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 1 - Exercici 3 - even numbers"
+      },
+      {
+        "name": "Nivell 2 - Exercici 4 - for in: for-in should log each key-value pair",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 4 - for in"
+      },
+      {
+        "name": "Nivell 2 - Exercici 5 - for of with break: for-of should log numbers until 5",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 5 - for of with break"
+      },
+      {
+        "name": "Nivell 2 - Exercici 5 - for of with index: for-of with index should log each name with its index",
+        "status": "passed",
+        "duration": 0,
+        "suite": "Nivell 2 - Exercici 5 - for of with index"
+      },
+      {
+        "name": "Nivell 1 - Exercise 1 - My First Promise: promesa should resolve with &quot;Hola, món&quot;",
+        "status": "passed",
+        "duration": 1972,
+        "suite": "Nivell 1 - Exercise 1 - My First Promise"
+      },
+      {
+        "name": "Nivell 1 - Exercise 2 - Then Method: promesa should resolve with &quot;Hola, món&quot;",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 1 - Exercise 2 - Then Method"
+      },
+      {
+        "name": "Nivell 1 - Exercise 3 - Promise With Reject: promiseWithReject should resolve for &quot;Hola&quot;",
+        "status": "passed",
+        "duration": 2002,
+        "suite": "Nivell 1 - Exercise 3 - Promise With Reject"
+      },
+      {
+        "name": "Nivell 1 - Exercise 3 - Promise With Reject: promiseWithReject should reject for other inputs",
+        "status": "passed",
+        "duration": 2003,
+        "suite": "Nivell 1 - Exercise 3 - Promise With Reject"
+      },
+      {
+        "name": "Nivell 1 - Exercise 4 - asyncAwaitFunction: asyncAwaitFunction should log &quot;Hola, món&quot;",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 1 - Exercise 4 - asyncAwaitFunction"
+      },
+      {
+        "name": "Nivell 2 - Exercise 5 - try/catch: tryCatch should log &quot;Correcte&quot;",
+        "status": "passed",
+        "duration": 2003,
+        "suite": "Nivell 2 - Exercise 5 - try/catch"
+      },
+      {
+        "name": "Nivell 2 - Exercise 5 - try/catch: tryCatch should reject for other inputs",
+        "status": "passed",
+        "duration": 2002,
+        "suite": "Nivell 2 - Exercise 5 - try/catch"
+      },
+      {
+        "name": "Nivell 3 - Exercise 6 - Promise.all: all promises should resolve with both results",
+        "status": "passed",
+        "duration": 1,
+        "suite": "Nivell 3 - Exercise 6 - Promise.all"
+      }
+    ]
+  }
+}
