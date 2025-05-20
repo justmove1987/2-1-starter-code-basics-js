@@ -95,16 +95,16 @@ const printNamesWithIndex = () => {};
 // /* 7. Promises & Async/Await */
 // /* Nivell 1*/
 const myFirstPromise = new Promise(()=>{});
-// const useMyFirstPromise = () =>{}
-// const promiseWithReject = () =>  new Promise();
-// const asyncAwaitFunction = async () => {};
+const useMyFirstPromise = () =>{}
+const promiseWithReject = () =>  new Promise();
+const asyncAwaitFunction = async () => {};
 // /* Nivell 2 */
-// const tryCatchFunction = () => {};
+const tryCatchFunction = () => {};
 
 // /* Nivell 3 */
-// const promise1 = new Promise();
-// const promise2 = new Promise();
-// const allPromises = new Promise();
+const promise1 = new Promise(()=>{});
+const promise2 = new Promise(()=>{});
+const allPromises = new Promise(()=>{});
 
 export {
   addTwoNumbers,
@@ -145,11 +145,11 @@ export {
   printUntilFive,
   printNamesWithIndex,
   myFirstPromise,
-  // useMyFirstPromise,
-  // promiseWithReject,
-  // asyncAwaitFunction,
-  // tryCatchFunction,
-  // promise1,
-  // promise2,
-  // allPromises,
+  useMyFirstPromise,
+  promiseWithReject,
+  asyncAwaitFunction,
+  tryCatchFunction,
+  promise1,
+  promise2,
+  allPromises,
 };

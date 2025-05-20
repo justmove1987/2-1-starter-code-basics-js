@@ -5,7 +5,7 @@
 	"main": "script.js",
 	"type": "module",
 	"scripts": {
-		"test": "node --test  --test-reporter=junit > ctrf/junit.xml",
+		"test": "node --test --test-reporter=spec --test-reporter=junit --test-reporter-destination=stdout --test-reporter-destination=ctrf/junit.xml",
 		"prepare": "husky",
 		"commit": "cz"
 	},
