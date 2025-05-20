@@ -56,5 +56,5 @@ jobs:
         with:
           report-path: './ctrf/*.json'
           summary-report: true
-          github-report: true
+          test-report: true
         if: always()
