@@ -1,0 +1,579 @@
+TAP version 13
+# (node:1100831) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Exercici Funcions Fletxa
+    # Subtest: Nivell 1 - Exercici 1 - addTwoNumbers
+        # Subtest: should return 3 for 1 + 2
+        ok 1 - should return 3 for 1 + 2
+          ---
+          duration_ms: 1.644948
+          ...
+        # Subtest: should return 4 for -1 + 5
+        ok 2 - should return 4 for -1 + 5
+          ---
+          duration_ms: 0.34184
+          ...
+        # Subtest: should return 0 for 0 + 0
+        ok 3 - should return 0 for 0 + 0
+          ---
+          duration_ms: 0.529219
+          ...
+        1..3
+    ok 1 - Nivell 1 - Exercici 1 - addTwoNumbers
+      ---
+      duration_ms: 3.800865
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 2 - randomNumber
+        # Subtest: should return a number between 0 and 100
+        ok 1 - should return a number between 0 and 100
+          ---
+          duration_ms: 0.563904
+          ...
+        # Subtest: should return an integer
+        ok 2 - should return an integer
+          ---
+          duration_ms: 0.22791
+          ...
+        1..2
+    ok 2 - Nivell 1 - Exercici 2 - randomNumber
+      ---
+      duration_ms: 1.184285
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 3 - Person
+        # Subtest: should log the correct greeting
+        ok 1 - should log the correct greeting
+          ---
+          duration_ms: 2.206405
+          ...
+        1..1
+    ok 3 - Nivell 1 - Exercici 3 - Person
+      ---
+      duration_ms: 2.843521
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 4 - printNumbers
+        # Subtest: should log each number
+        ok 1 - should log each number
+          ---
+          duration_ms: 0.632793
+          ...
+        1..1
+    ok 4 - Nivell 2 - Exercici 4 - printNumbers
+      ---
+      duration_ms: 1.189738
+      type: 'suite'
+      ...
+    # Subtest: Nivell 3 - Exercici 4 - printDelayedMessage
+        # Subtest: should log after 3 seconds
+        ok 1 - should log after 3 seconds
+          ---
+          duration_ms: 1.720058
+          ...
+        1..1
+    ok 5 - Nivell 3 - Exercici 4 - printDelayedMessage
+      ---
+      duration_ms: 1.89837
+      type: 'suite'
+      ...
+    1..5
+ok 1 - Exercici Funcions Fletxa
+  ---
+  duration_ms: 12.67626
+  type: 'suite'
+  ...
+# Subtest: Exercici operador ternario
+    # Subtest: Nivell 1 - Exercici 1 - canDrive
+        # Subtest: should return "Pots conduir" for age 18
+        ok 1 - should return "Pots conduir" for age 18
+          ---
+          duration_ms: 0.466329
+          ...
+        # Subtest: should return "No pots conduir" for age 17
+        ok 2 - should return "No pots conduir" for age 17
+          ---
+          duration_ms: 0.320008
+          ...
+        1..2
+    ok 1 - Nivell 1 - Exercici 1 - canDrive
+      ---
+      duration_ms: 0.93894
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 2 - guessTheBigger
+        # Subtest: should return "num1 és més gran" for 5 and 3
+        ok 1 - should return "num1 és més gran" for 5 and 3
+          ---
+          duration_ms: 0.184171
+          ...
+        # Subtest: should return "num2 és més gran" for 2 and 4
+        ok 2 - should return "num2 és més gran" for 2 and 4
+          ---
+          duration_ms: 1.469403
+          ...
+        1..2
+    ok 2 - Nivell 1 - Exercici 2 - guessTheBigger
+      ---
+      duration_ms: 1.783356
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 3 - guessTypeNumber
+        # Subtest: should return "Positiu" for 5
+        ok 1 - should return "Positiu" for 5
+          ---
+          duration_ms: 0.155972
+          ...
+        # Subtest: should return "Negatiu" for -3
+        ok 2 - should return "Negatiu" for -3
+          ---
+          duration_ms: 0.086983
+          ...
+        # Subtest: should return "Zero" for 0
+        ok 3 - should return "Zero" for 0
+          ---
+          duration_ms: 0.080589
+          ...
+        1..3
+    ok 3 - Nivell 2 - Exercici 3 - guessTypeNumber
+      ---
+      duration_ms: 0.457604
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 4 - findTheMaxNumber
+        # Subtest: should return 10 for 5, 10, 3
+        ok 1 - should return 10 for 5, 10, 3
+          ---
+          duration_ms: 0.145419
+          ...
+        # Subtest: should return 7 for 1, 7, 4
+        ok 2 - should return 7 for 1, 7, 4
+          ---
+          duration_ms: 0.118294
+          ...
+        1..2
+    ok 4 - Nivell 2 - Exercici 4 - findTheMaxNumber
+      ---
+      duration_ms: 0.398905
+      type: 'suite'
+      ...
+    # Subtest: Nivell 3 - Exercici 5 - guessOddOrEvenNumber
+        # Subtest: should log "Parell" for even numbers and "Imparell" for odd numbers
+        ok 1 - should log "Parell" for even numbers and "Imparell" for odd numbers
+          ---
+          duration_ms: 0.427954
+          ...
+        1..1
+    ok 5 - Nivell 3 - Exercici 5 - guessOddOrEvenNumber
+      ---
+      duration_ms: 0.524114
+      type: 'suite'
+      ...
+    1..5
+ok 2 - Exercici operador ternario
+  ---
+  duration_ms: 4.560961
+  type: 'suite'
+  ...
+# Subtest: Exercici operador ternario
+    # Subtest: Nivell 1 - Exercici 1 - processNumber
+        # Subtest: should call the callback with the number
+        ok 1 - should call the callback with the number
+          ---
+          duration_ms: 0.290971
+          ...
+        1..1
+    ok 1 - Nivell 1 - Exercici 1 - processNumber
+      ---
+      duration_ms: 0.362104
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 2 - calculator
+        # Subtest: should call the callback with the sum of two numbers
+        ok 1 - should call the callback with the sum of two numbers
+          ---
+          duration_ms: 0.132373
+          ...
+        1..1
+    ok 2 - Nivell 1 - Exercici 2 - calculator
+      ---
+      duration_ms: 0.198465
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 3 - waitAndGreet
+        # Subtest: should call the callback after 2 seconds
+        ok 1 - should call the callback after 2 seconds
+          ---
+          duration_ms: 0.304815
+          ...
+        1..1
+    ok 3 - Nivell 2 - Exercici 3 - waitAndGreet
+      ---
+      duration_ms: 0.371959
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 4 - processElements
+        # Subtest: should call the callback for each element
+        ok 1 - should call the callback for each element
+          ---
+          duration_ms: 0.18241
+          ...
+        1..1
+    ok 4 - Nivell 2 - Exercici 4 - processElements
+      ---
+      duration_ms: 0.247985
+      type: 'suite'
+      ...
+    # Subtest: Nivell 3 - Exercici 5 - processString
+        # Subtest: should call the callback with the uppercase string
+        ok 1 - should call the callback with the uppercase string
+          ---
+          duration_ms: 0.17033
+          ...
+        1..1
+    ok 5 - Nivell 3 - Exercici 5 - processString
+      ---
+      duration_ms: 0.240696
+      type: 'suite'
+      ...
+    1..5
+ok 3 - Exercici operador ternario
+  ---
+  duration_ms: 1.64895
+  type: 'suite'
+  ...
+# Subtest: Rest & Spread operators
+    # Subtest: Nivell 1 - Exercici 1 - arrayNumbers3
+        # Subtest: should contain all elements from arrayNumbers1 and arrayNumbers2
+        ok 1 - should contain all elements from arrayNumbers1 and arrayNumbers2
+          ---
+          duration_ms: 0.110609
+          ...
+        1..1
+    ok 1 - Nivell 1 - Exercici 1 - arrayNumbers3
+      ---
+      duration_ms: 0.182126
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 1 - addRestParameters
+        # Subtest: should return the sum of all arguments
+        ok 1 - should return the sum of all arguments
+          ---
+          duration_ms: 0.193414
+          ...
+        1..1
+    ok 2 - Nivell 1 - Exercici 1 - addRestParameters
+      ---
+      duration_ms: 0.288376
+      type: 'suite'
+      ...
+    1..2
+ok 4 - Rest & Spread operators
+  ---
+  duration_ms: 0.604203
+  type: 'suite'
+  ...
+# Subtest: Nivell 2 - Exercici 3 - citizenPlusCity
+    # Subtest: should be a copy of citizen with an additional property
+    ok 1 - should be a copy of citizen with an additional property
+      ---
+      duration_ms: 0.322031
+      ...
+    1..1
+ok 5 - Nivell 2 - Exercici 3 - citizenPlusCity
+  ---
+  duration_ms: 0.424488
+  type: 'suite'
+  ...
+# Subtest: Nivell 2 - Exercici 4 -rest
+    # Subtest: rest should contain the remaining elements
+    ok 1 - rest should contain the remaining elements
+      ---
+      duration_ms: 0.16813
+      ...
+    1..1
+ok 6 - Nivell 2 - Exercici 4 -rest
+  ---
+  duration_ms: 0.289579
+  type: 'suite'
+  ...
+# Subtest: Nivell 3 - Exercici 5 - resultSpreadArgumentsToFunction
+    # Subtest: should be the sum of the arrayNumbers elements
+    ok 1 - should be the sum of the arrayNumbers elements
+      ---
+      duration_ms: 0.154893
+      ...
+    1..1
+ok 7 - Nivell 3 - Exercici 5 - resultSpreadArgumentsToFunction
+  ---
+  duration_ms: 0.270308
+  type: 'suite'
+  ...
+# Subtest: Nivell 3 - Exercici 6 - objecteFusionat
+    # Subtest: should contain properties from both objects
+    ok 1 - should contain properties from both objects
+      ---
+      duration_ms: 0.20525
+      ...
+    1..1
+ok 8 - Nivell 3 - Exercici 6 - objecteFusionat
+  ---
+  duration_ms: 0.30292
+  type: 'suite'
+  ...
+# Subtest: Array transformations
+    # Subtest: Nivell 1 - Exercici 1 - squareNumbersArray
+        # Subtest: should contain the squares of the numbers
+        ok 1 - should contain the squares of the numbers
+          ---
+          duration_ms: 0.161654
+          ...
+        1..1
+    ok 1 - Nivell 1 - Exercici 1 - squareNumbersArray
+      ---
+      duration_ms: 0.248727
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 2 - evenNumbersArray
+        # Subtest: should contain only even numbers
+        ok 1 - should contain only even numbers
+          ---
+          duration_ms: 0.15244
+          ...
+        1..1
+    ok 2 - Nivell 1 - Exercici 2 - evenNumbersArray
+      ---
+      duration_ms: 0.241891
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 3 - firstGreaterThan10
+        # Subtest: should find the first number greater than 10
+        ok 1 - should find the first number greater than 10
+          ---
+          duration_ms: 0.123626
+          ...
+        1..1
+    ok 3 - Nivell 1 - Exercici 3 - firstGreaterThan10
+      ---
+      duration_ms: 0.207587
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercici 4 - totalCalculated
+        # Subtest: should be the sum of all numbers
+        ok 1 - should be the sum of all numbers
+          ---
+          duration_ms: 0.106342
+          ...
+        1..1
+    ok 4 - Nivell 1 - Exercici 4 - totalCalculated
+      ---
+      duration_ms: 0.185966
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 5 - calculateDoubleGreaterThan10NumbersAddition
+        # Subtest: should return the correct sum
+        ok 1 - should return the correct sum
+          ---
+          duration_ms: 0.196225
+          ...
+        1..1
+    ok 5 - Nivell 2 - Exercici 5 - calculateDoubleGreaterThan10NumbersAddition
+      ---
+      duration_ms: 0.2775
+      type: 'suite'
+      ...
+    # Subtest: Nivell 3 - Exercici 6 - everyGreaterThan10 & someGreaterThan10
+        # Subtest: should be true for all and some
+        ok 1 - should be true for all and some
+          ---
+          duration_ms: 0.109284
+          ...
+        1..1
+    ok 6 - Nivell 3 - Exercici 6 - everyGreaterThan10 & someGreaterThan10
+      ---
+      duration_ms: 0.211824
+      type: 'suite'
+      ...
+    1..6
+ok 9 - Array transformations
+  ---
+  duration_ms: 1.737987
+  type: 'suite'
+  ...
+# Subtest: Array transformations
+    # Subtest: Nivell 1 - Exercici 1 - printNamesWithForEach
+        # Subtest: forEach should log each name
+        ok 1 - forEach should log each name
+          ---
+          duration_ms: 0.392299
+          ...
+        # Subtest: Nivell 1 - Exercici 2 - for-of
+            # Subtest: should log each name
+            ok 1 - should log each name
+              ---
+              duration_ms: 0.361336
+              ...
+            1..1
+        ok 2 - Nivell 1 - Exercici 2 - for-of
+          ---
+          duration_ms: 0.4582
+          type: 'suite'
+          ...
+        # Subtest: Nivell 1 - Exercici 3 - even numbers
+            # Subtest: should contain only even numbers
+            ok 1 - should contain only even numbers
+              ---
+              duration_ms: 0.123557
+              ...
+            1..1
+        ok 3 - Nivell 1 - Exercici 3 - even numbers
+          ---
+          duration_ms: 0.207493
+          type: 'suite'
+          ...
+        1..3
+    ok 1 - Nivell 1 - Exercici 1 - printNamesWithForEach
+      ---
+      duration_ms: 1.272577
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 4 - for in
+        # Subtest: for-in should log each key-value pair
+        ok 1 - for-in should log each key-value pair
+          ---
+          duration_ms: 0.391732
+          ...
+        1..1
+    ok 2 - Nivell 2 - Exercici 4 - for in
+      ---
+      duration_ms: 0.530843
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 5 - for of with break
+        # Subtest: for-of should log numbers until 5
+        ok 1 - for-of should log numbers until 5
+          ---
+          duration_ms: 0.767572
+          ...
+        1..1
+    ok 3 - Nivell 2 - Exercici 5 - for of with break
+      ---
+      duration_ms: 0.906752
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercici 5 - for of with index
+        # Subtest: for-of with index should log each name with its index
+        ok 1 - for-of with index should log each name with its index
+          ---
+          duration_ms: 0.495395
+          ...
+        1..1
+    ok 4 - Nivell 2 - Exercici 5 - for of with index
+      ---
+      duration_ms: 0.619003
+      type: 'suite'
+      ...
+    1..4
+ok 10 - Array transformations
+  ---
+  duration_ms: 3.915704
+  type: 'suite'
+  ...
+# Subtest: Promises & Async/Await
+    # Subtest: Nivell 1 - Exercise 1 - My First Promise
+        # Subtest: promesa should resolve with "Hola, món"
+        ok 1 - promesa should resolve with "Hola, món"
+          ---
+          duration_ms: 1940.888295
+          ...
+        1..1
+    ok 1 - Nivell 1 - Exercise 1 - My First Promise
+      ---
+      duration_ms: 1941.671828
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercise 2 - Then Method
+        # Subtest: promesa should resolve with "Hola, món"
+        ok 1 - promesa should resolve with "Hola, món"
+          ---
+          duration_ms: 1.072895
+          ...
+        1..1
+    ok 2 - Nivell 1 - Exercise 2 - Then Method
+      ---
+      duration_ms: 1.371306
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercise 3 - Promise With Reject
+        # Subtest: promiseWithReject should resolve for "Hola"
+        ok 1 - promiseWithReject should resolve for "Hola"
+          ---
+          duration_ms: 2001.425096
+          ...
+        # Subtest: promiseWithReject should reject for other inputs
+        ok 2 - promiseWithReject should reject for other inputs
+          ---
+          duration_ms: 2002.312755
+          ...
+        1..2
+    ok 3 - Nivell 1 - Exercise 3 - Promise With Reject
+      ---
+      duration_ms: 4004.44427
+      type: 'suite'
+      ...
+    # Subtest: Nivell 1 - Exercise 4 - asyncAwaitFunction
+        # Subtest: asyncAwaitFunction should log "Hola, món"
+        ok 1 - asyncAwaitFunction should log "Hola, món"
+          ---
+          duration_ms: 1.119354
+          ...
+        1..1
+    ok 4 - Nivell 1 - Exercise 4 - asyncAwaitFunction
+      ---
+      duration_ms: 1.410443
+      type: 'suite'
+      ...
+    # Subtest: Nivell 2 - Exercise 5 - try/catch
+        # Subtest: tryCatch should log "Correcte"
+        ok 1 - tryCatch should log "Correcte"
+          ---
+          duration_ms: 2003.97719
+          ...
+        # Subtest: tryCatch should reject for other inputs
+        ok 2 - tryCatch should reject for other inputs
+          ---
+          duration_ms: 2001.915052
+          ...
+        1..2
+    ok 5 - Nivell 2 - Exercise 5 - try/catch
+      ---
+      duration_ms: 4006.67349
+      type: 'suite'
+      ...
+    # Subtest: Nivell 3 - Exercise 6 - Promise.all
+        # Subtest: all promises should resolve with both results
+        ok 1 - all promises should resolve with both results
+          ---
+          duration_ms: 0.354955
+          ...
+        1..1
+    ok 6 - Nivell 3 - Exercise 6 - Promise.all
+      ---
+      duration_ms: 0.571807
+      type: 'suite'
+      ...
+    1..6
+ok 11 - Promises & Async/Await
+  ---
+  duration_ms: 9956.771814
+  type: 'suite'
+  ...
+1..11
+# tests 49
+# suites 46
+# pass 49
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 10237.954377
