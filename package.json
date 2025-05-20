@@ -1,13 +1,24 @@
 {
-  "name": "tasca-s21",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node --test --watch ./script.test.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "tasca-s21",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node --test --watch ./script.test.js",
+		"prepare": "husky",
+		"commit": "cz"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"commitizen": "^4.3.1",
+		"cz-conventional-changelog": "^3.3.0",
+		"husky": "^9.1.7"
+	}
 }
