@@ -29,7 +29,6 @@ Els conceptes de JavaScript a cobrir són:
 - Promises
 
 ## Informació técnica de l'exercici
-
 - Aquest repositori té testing automatitzat, es a dir quan pujis el resultat al repositori es correran automàticament el tests i sabràs la teva nota d'aquest exercici. Pots pujar totes les vegades que vulguis fins que resolguis tots els casos.
 
 - Al mateix temps si vols anar fent comprovacions dels teus avanços pots correr els tests al terminal mitjançant el command:
@@ -42,9 +41,12 @@ Has de treure una nota de **7 sobre 10** per poder passar a la següent tasca de
 
 *nota* el test també comprova que els commits segueixen les convencions actuals de la pàgina https://conventionalcommits.org
 
+
+
 # Instruccions
 
 Les instruccions estan en format [gherkin](https://cucumber.io/docs/gherkin/reference)
+Resolc els exercicis al fitxer `script.js`
 
 ```gherkin
     Feature: Arrow Functions
