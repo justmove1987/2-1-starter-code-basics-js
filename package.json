@@ -5,7 +5,7 @@
 	"main": "script.js",
 	"type": "module",
 	"scripts": {
-		"test": "node --test ./script.test.js",
+		"test": "node --test ./script.test.js -test-reporter=tap > ctrf/test-results.json",
 		"prepare": "husky",
 		"commit": "cz"
 	},
@@ -19,6 +19,7 @@
 		"@commitlint/config-conventional": "^19.8.1",
 		"commitizen": "^4.3.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^9.1.7"
+		"husky": "^9.1.7",
+		"tap": "^21.1.0"
 	}
 }
