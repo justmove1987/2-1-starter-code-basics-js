@@ -50,10 +50,11 @@ jobs:
 
       - name: Convert junit to ctrf
         run: pnpx junit-to-ctrf ./ctrf/*.xml
-        
+
       - name: Publish Test Report
         uses: ctrf-io/github-test-reporter@v1
         with:
           report-path: './ctrf/*.json'
           summary-report: true
+          github-report: true
         if: always()
