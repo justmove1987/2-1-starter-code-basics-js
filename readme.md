@@ -1,58 +1,60 @@
-# Basics JavaScript
+# JavaScript Bàsic
 
 ## Introducció
 
-        **JavaScript** és un llenguatge de programació utilitzat principalment en **pàgines web**, però també aplicat en programació i administració general.
-- És un llenguatge amb múltiples capes d’abstracció, biblioteques i frameworks, alguns exemples:
-        **Angular**: Framework de desenvolupament d'aplicacions web.
-        **Three.js**: Llibreria de modelatge 3D per al navegador.
-        **NodeJS**: *entorn d'execució* de JavaScript dissenyat per executar codi JavaScript **fora del navegador**.
+**JavaScript** és un llenguatge de programació utilitzat principalment en **pàgines web**, però també aplicat en programació i administració general.  
 
-Es va crear el maig del 1995 pel Brendan Eich i es va convertir a l'ECMAScript (estàndard oficial de JavaScript gestionat per ECMA International) l'any 1997. 
+- És un llenguatge amb múltiples capes d’abstracció, llibreries i frameworks. Alguns exemples són:  
+  - **Angular**: Framework de desenvolupament d'aplicacions web.  
+  - **Three.js**: Llibreria de modelatge 3D per al navegador.  
+  - **Node.js**: *entorn d'execució* de JavaScript dissenyat per executar codi JavaScript **fora del navegador**.  
 
-Les noves versions del llenguatge van començar el juny del 2015, quan es va reanomenar la versió del javascript com a ES2015 o també ES6. Aquesta edició va introduir novetats importants com classes i mòduls. A partir d’aquesta edició, es publiquen actualitzacions anuals (ES2016, ES2017, etc.).
+Es va crear el maig de 1995 per Brendan Eich i es va convertir a l'ECMAScript (estàndard oficial de JavaScript gestionat per ECMA International) l'any 1997.  
 
-Totes les versions modernes són **compatibles amb les anteriors**, i això permet actualitzacions progressives.
+Les noves versions del llenguatge van començar el juny de 2015, quan es va reanomenar la versió de JavaScript com a ES2015 o també ES6. Aquesta edició va introduir novetats importants com classes i mòduls. A partir d’aquesta edició, es publiquen actualitzacions anuals (ES2016, ES2017, etc.).  
 
-Aquesta tasca ha de servir per consolidar el teu coneixement del JavaScript modern. Aquest coneixement et servirà per treballar amb els frameworks de desenvolupament web amb seguretat.
+Totes les versions modernes són **compatibles amb les anteriors**, cosa que permet actualitzacions progressives.  
 
-## Objectiu
+Aquesta tasca ha de servir per consolidar el teu coneixement del JavaScript modern. Aquest coneixement et servirà per treballar amb els frameworks de desenvolupament web amb seguretat.  
 
-Resoldre els problemes plantejats, per assolir els coneixements mínims necessaris de javascript per avançar a l'itinerari de desenvolupament web que et proposis.
+## Objectiu  
 
-Els conceptes de JavaScript a cobrir són:
+Resoldre els problemes plantejats per assolir els coneixements mínims necessaris de JavaScript per avançar en l'itinerari de desenvolupament web que et proposis.  
 
-- Funcions de Fletxa (Arrow Functions)
-- Callbacks
-- Operadors rest i spread
-- Transformacions d'array amb funcions pures
-- Promises
+Els conceptes de JavaScript a cobrir són:  
+- Funcions de fletxa (Arrow Functions)  
+- Callbacks  
+- Operadors rest i spread  
+- Transformacions d'array amb funcions pures  
+- Promises  
 
-## Informació técnica de l'exercici
+## Informació tècnica de l'exercici  
 
-- Clona aquest repo
-```sh 
-    $ git clone https://github.com/IT-Academy-BCN/starter-code-basics-js.git
- ```
-- Desconecta el teu repo delt repository de itacademy. Utilitza la segÜent ordre de git: 
-```sh
-    $ git remote rm origin
-```
-- Conecta el teu repositori amb el teu compte de github:
-```sh
-$ git remote add origin <your repo name!>
-```
-- Treballa els exercicis al fitxer `script.js`.
-- Puja els canvis al teu repositori.
+- Clona aquest repositori:  
+```sh  
+$ git clone https://github.com/IT-Academy-BCN/starter-code-basics-js.git  
+```  
 
-**Important**:
-Aquest repositori té testing automatitzat, es a dir quan pujis el resultat al repositori es correran automàticament el tests i sabràs la teva nota d'aquest exercici. Pots pujar totes les vegades que vulguis fins que resolguis tots els casos.
+- Desconnecta el teu repositori del repositori de IT Academy. Utilitza la següent ordre de git:  
+```sh  
+$ git remote rm origin  
+```  
 
-- Al mateix temps si vols anar fent comprovacions dels teus avanços pots correr els tests al terminal mitjançant el command:
+- Connecta el teu repositori amb el teu compte de GitHub:  
+```sh  
+$ git remote add origin <URL-del-teu-repositori>  
+```  
 
-```bash
-    npm run test
-```
+- Treballa els exercicis al fitxer `script.js`.  
+- Puja els canvis al teu repositori.  
+
+>**Important**:  
+>Aquest repositori té testing automatitzat, és a dir, quan pugis el resultat al repositori s'executaran automàticament els tests i sabràs la teva nota d'aquest exercici. Pots pujar totes les vegades que vulguis fins que resolguis tots els casos.  
+
+>- Si vols anar fent comprovacions dels teus avenços, pots executar els tests al terminal mitjançant la comanda:  
+>```bash  
+>npm run test  
+>```  
 
 
 ## Requeriments
