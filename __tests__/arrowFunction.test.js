@@ -57,16 +57,22 @@ describe("Exercici Funcions Fletxa", () => {
     });
   });
   describe("Nivell 3 - Exercici 4 - printDelayedMessage", () => {
-    it("should log after 3 seconds", () => {
-      const spy = mock.method(console, "log", () => {});
-      mock.timers.enable({ apis: ["setTimeout"] });
-      printDelayedMessage();
-      mock.timers.tick(3000);
-      assert.deepStrictEqual(spy.mock.calls[0].arguments, [
-        "Missatge després de 3 segons",
-      ]);
-      mock.timers.reset();
-      mock.reset();
-    });
+  it("should log after 3 seconds", () => {
+    const spy = mock.method(console, "log", () => {});
+    // ← enable fake setTimeout timers
+    mock.timers.enable(["setTimeout"]);
+
+    printDelayedMessage();
+    mock.timers.tick(3000);
+
+    assert.deepStrictEqual(
+      spy.mock.calls[0].arguments,
+      ["Missatge després de 3 segons"]
+    );
+
+    // cleanup
+    mock.timers.reset();
+    mock.reset();
   });
+});
 });
