@@ -127,10 +127,6 @@ const printNamesWithIndex = () => {
     console.log(`${["Anna", "Bernat", "Clara"].indexOf(name)}: ${name}`);
   }
 };
-//   const noms = ["Anna", "Bernat", "Clara"];
-//   for (const [index, nom] of noms.entries()) {
-//     console.log(`${index}: ${nom}`);
-//   }
 
 /* 7. Promises & Async/Await */
 /* Nivell 1*/
