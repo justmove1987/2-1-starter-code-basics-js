@@ -22,7 +22,7 @@ const printDelayedMessage = () => {
 /* 2. Operador Ternari */
 
 /* Nivell 1*/
-const canDrive = (age) => (age >= 18 ? "Pots conduir" : "No pots conduir");
+const canDrive = (edad) => (edad >= 18 ? "Pots conduir" : "No pots conduir");
 
 const guessTheBigger = (num1, num2) =>
   num1 > num2 ? "num1 és més gran" : "num2 és més gran";
