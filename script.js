@@ -69,7 +69,7 @@ const addRestParameters = (...nums) => nums.reduce((acc, num) => acc + num, 0);
 
 /* Nivell 2 */
 
-const citizen = { name: "Enric", age: 25 };
+const citizen = { name: "Dana", age: 25 };
 const citizenPlusCity = { ...citizen, city: "Barcelona" };
 
 const [first, second, ...rest] = [1, 2, 3, 4, 5];
@@ -79,8 +79,8 @@ const fn = (a, b, c) => a + b + c;
 const arrayNumbers = [1, 2, 3];
 const resultSpreadArgumentsToFunction = fn(...arrayNumbers);
 
-const object1 = { name: "Enric" };
-const object2 = { age: 37 };
+const object1 = { name: "Dana" };
+const object2 = { age: 25 };
 const mergeObject = { ...object1, ...object2 };
 
 /* 5. Array transformations */

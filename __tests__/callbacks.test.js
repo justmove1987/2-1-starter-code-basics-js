@@ -25,24 +25,16 @@ describe("Exercici callbacks", () => {
   });
 
   describe("Nivell 2 - Exercici 3 - waitAndGreet", () => {
-  it("should call the callback after 2 seconds", () => {
-    const mockCallback = mock.fn();
-    // ← enable fake setTimeout timers
-    mock.timers.enable(["setTimeout"]);
-
-    waitAndGreet("Dana", mockCallback);
-    mock.timers.tick(2000);
-
-    assert.deepStrictEqual(
-      mockCallback.mock.calls[0].arguments,
-      ["Dana"]
-    );
-
-    // cleanup
-    mock.timers.reset();
-    mock.reset();
+    it("should call the callback after 2 seconds", () => {
+      const mockCallback = mock.fn();
+      mock.timers.enable({ apis: ["setTimeout"] });
+      waitAndGreet("Dana", mockCallback);
+      mock.timers.tick(2000);
+      assert.deepStrictEqual(mockCallback.mock.calls[0].arguments, ["Dana"]);
+      mock.timers.reset();
+      mock.reset();
+    });
   });
-});
 
   describe("Nivell 2 - Exercici 4 - processElements", () => {
     it("should call the callback for each element", () => {
@@ -59,4 +51,3 @@ describe("Exercici callbacks", () => {
     });
   });
 });
-
