@@ -1,21 +1,46 @@
-# JavaScript Bàsic
+# 1.1 Maquetació I
 
-## Introducció
+## Descripció - Enunciat de l'exercici
 
-**JavaScript** és un llenguatge de programació utilitzat principalment en **pàgines web**, però també aplicat en programació i administració general.  
+Aquest exercici es compon de diversos exercicis breus, tocant diferents aspectes del llenguatge JavaScript. En aquest ordre: les arrow function, l'operador ternari, les funcions callback, els operadors rest i spread, els arrays, les promeses i les funcions asíncrones.
 
-- És un llenguatge amb múltiples capes d’abstracció, llibreries i frameworks. Alguns exemples són:  
-  - **Angular**: Framework de desenvolupament d'aplicacions web.  
-  - **Three.js**: Llibreria de modelatge 3D per al navegador.  
-  - **Node.js**: *entorn d'execució* de JavaScript dissenyat per executar codi JavaScript **fora del navegador**.  
+## Tecnologies utilitzades
 
-Es va crear el maig de 1995 per Brendan Eich i es va convertir a l'ECMAScript (estàndard oficial de JavaScript gestionat per ECMA International) l'any 1997.  
+- JavaScript
 
-Les noves versions del llenguatge van començar el juny de 2015, quan es va reanomenar la versió de JavaScript com a ES2015 o també ES6. Aquesta edició va introduir novetats importants com classes i mòduls. A partir d’aquesta edició, es publiquen actualitzacions anuals (ES2016, ES2017, etc.).  
+## Requisits
 
-Totes les versions modernes són **compatibles amb les anteriors**, cosa que permet actualitzacions progressives.  
+Hi ha dos arxius de JavaScript, main.js i script.js, un index.html i un styles.css. L'script de l'index.html enllaça amb el main.js, mentre que el script.js no està vinculat a cap html. 
 
-Aquesta tasca ha de servir per consolidar el teu coneixement del JavaScript modern. Aquest coneixement et servirà per treballar amb els frameworks de desenvolupament web amb seguretat.  
+El main.js té tots els exercicis de tots tres nivells i és fàcil comprobar-ne la funcionalitat a través de la pàgina html, que, a més conté tots els enunciats i part del codi (la part més rellevant). 
+
+L'script.js és una versió anterior, que conté només els exercicis del nivell 1. Aquest script es pot avaluar mitjançant node.js. Està plè de console.logs, de tal manera que és suficient amb obrir la terminal i executar l'arxiu, per tal d'invocar totes les funcions i veure'n el resultat.
+
+- Node.js (opcional)
+
+## Instal·lació
+
+- Clona aquest repositori: https://github.com/justmove1987/2-1-starter-code-basics-js.git
+
+- Si vols executar l'script.js, necessites node.js. Es pot fer amb la terminal, de la següent manera: 
+
+    ### Download and install fnm:
+    winget install Schniz.fnm
+
+    ### Download and install Node.js:
+    fnm install 22
+
+    ### Verify the Node.js version:
+    node -v # hauria de mostrar "v22.13.1".
+
+    ### Verify npm version:
+    npm -v # hauria de mostrar "10.9.2".
+
+
+## Execució
+
+L'script.js s'executa accedint des de la terminal a la carpeta on està l'arxiu, i un cop allà introduïnt el comandament: node script.js.
+
 
 ## Objectiu  
 
