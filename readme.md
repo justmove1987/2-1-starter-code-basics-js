@@ -67,7 +67,7 @@ $ git remote rm origin
 
 - Connecta el teu repositori amb el teu compte de GitHub:  
 ```sh  
-$ git remote add origin <URL-del-teu-repositori>  
+$ git remote add origin https://github.com/justmove1987/2-1-starter-code-basics-js.git
 ```  
 
 - Treballa els exercicis al fitxer `script.js`.  
