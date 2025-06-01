@@ -32,7 +32,13 @@ const guessTheBigger = (num1, num2) =>
 const guessTypeNumber = (num) =>
   num > 0 ? "Positiu" : num < 0 ? "Negatiu" : "Zero";
 
-const findTheMaxNumber = (a, b, c) => (a > b ? (a > c ? a : c) : b > c ? b : c);
+const findTheMaxNumber = (a, b, c) => (
+      a > b 
+      ? (a > c ? a : c)
+      : b > c 
+      ? b 
+      : c
+);
 
 /* Nivell 3 */
 const guessOddOrEvenNumber = (numeros) => {
