@@ -282,3 +282,4 @@ Has de treure una nota de **7 sobre 10** per poder passar a la següent tasca de
 *nota* el test també comprova que els commits segueixen les convencions actuals de la pàgina https://conventionalcommits.org
 
 
+ 
